@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./component/Layout";
 import InputForm from "./component/InputForm";
 import DisplayResult from "./component/DisplayResult";
+import "./App.css";
 
 const App = () => {
   return (
