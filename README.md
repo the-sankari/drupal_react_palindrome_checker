@@ -20,9 +20,10 @@ a palindrome.
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## ScreenShots
-
-No screenshots are available for this project.
+- Home
 ![image](./src/assets/img/home.png)
+
+- Result
 ![image](./src/assets/img/result.png)
 
 ## Author
