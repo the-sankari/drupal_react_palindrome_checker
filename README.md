@@ -1,8 +1,29 @@
-# React + Vite
+# React Palindrom checker from Drupal Api Call
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I am trying to create a simple palindrom checker in React. The checker should call a Drupal custom module API to check if a word is a palindrome. Here is my code:
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple palindrom checker that uses a Drupal API to check if a word is
+a palindrome.
+
+## Tech Stack
+
+- Drupal 11 custom module api
+- React
+- Redux
+- Axios
+- Redux Toolkit
+- React BootStrap
+
+## ScreenShots
+
+No screenshots are available for this project.
+
+## Author
+
+[Kajol Sutra Dhar](https://github.com/the-sankari/).
+
+## License
+
+This project is licensed under the MIT License.
