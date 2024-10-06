@@ -22,6 +22,8 @@ a palindrome.
 ## ScreenShots
 
 No screenshots are available for this project.
+![image](./src/assets/img/home.png)
+![image](./src/assets/img/result.png)
 
 ## Author
 
