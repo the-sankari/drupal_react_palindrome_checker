@@ -22,19 +22,20 @@ const InputForm = () => {
   };
   return (
     <>
-      <Form.Label htmlFor="inputText">Enter A word</Form.Label>
-      <Form.Control
-        type="text"
-        id="inputText"
-        aria-describedby="texthelptext"
-        value={input}
-        onChange={handleChange}
-        placeholder="Enter a string"
-      />
-      <Form.Text id="texthelptext" muted>
-        An input is required to check the palindrome
-      </Form.Text>
-      <hr />
+      <Form>
+        <Form.Label htmlFor="inputText">Enter A String</Form.Label>
+        <Form.Control
+          type="text"
+          id="inputText"
+          aria-describedby="texthelptext"
+          value={input}
+          onChange={handleChange}
+          placeholder="Enter a string"
+        />
+        <Form.Text id="texthelptext" style={{ color: "#FF7303" }}>
+          An input is required to check the palindrome
+        </Form.Text>
+      </Form>
       <Button
         variant="primary"
         onClick={handleCheck}

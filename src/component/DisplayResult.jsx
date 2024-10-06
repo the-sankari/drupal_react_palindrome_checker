@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
@@ -8,19 +7,35 @@ const DisplayResult = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
-      {error ? (
-        <p style={{ color: "red" }}>{error}</p>
-      ) : result ? (
-        <div className="result">
-          <p>Input: {result.input}</p>
-          <p>Is Palindrome: {result.is_palindrome ? "Yes" : "No"}</p>
+    <Card
+      style={{ width: "30rem", margin: "auto", padding: "1rem" }}
+      className="bg-dark text-white"
+    >
+      <Card.Body>
+        {error ? (
+          <p style={{ color: "red", textAlign: "center" }}>{error}</p>
+        ) : result ? (
+          <>
+            <Card.Title>Result</Card.Title>
+            <Card.Subtitle className="md-2 text-muted">
+              {result.input}
+            </Card.Subtitle>
+            <Card.Text>
+              {result.is_palindrome
+                ? `${result.input} is a palindrome`
+                : `${result.input} is not a palindrome`}
+            </Card.Text>
+          </>
+        ) : (
+          <p>No result to display.</p>
+        )}
+        <div className="text-center mt-3">
+          <Button variant="primary" onClick={() => navigate("/")}>
+            Check Another
+          </Button>
         </div>
-      ) : (
-        <p>No result to display.</p>
-      )}
-      <Button onClick={()=>navigate('/')}>Check Anothor</Button>
-    </div>
+      </Card.Body>
+    </Card>
   );
 };
 

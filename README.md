@@ -1,6 +1,6 @@
 # React Palindrom checker from Drupal Api Call
 
-I am trying to create a simple palindrom checker in React. The checker should call a Drupal custom module API to check if a word is a palindrome. Here is my code:
+I am trying to create a simple palindrom checker in React. The checker should call a Drupal custom module API to check if a word is a palindrome.
 
 ## Project Overview
 
