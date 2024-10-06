@@ -24,7 +24,7 @@ a palindrome.
 ![image](./src/assets/img/home.png)
 
 - Result
-![image](./src/assets/img/home.png)
+![image](./src/assets/img/result.png)
 
 ## Author
 
