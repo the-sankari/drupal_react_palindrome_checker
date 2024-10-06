@@ -9,12 +9,15 @@ a palindrome.
 
 ## Tech Stack
 
-- Drupal 11 custom module api
-- React
-- Redux
-- Axios
-- Redux Toolkit
-- React BootStrap
+![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Axios](https://img.shields.io/badge/axios-%23232F7E.svg?style=for-the-badge&logo=axios&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/redux%20toolkit-%23764FA3.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Bootstrap](https://img.shields.io/badge/react%20bootstrap-%238F3BF4.svg?style=for-the-badge&logo=react-bootstrap&logoColor=white)
+![Drupal](https://img.shields.io/badge/drupal-%230678BE.svg?style=for-the-badge&logo=drupal&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## ScreenShots
 
